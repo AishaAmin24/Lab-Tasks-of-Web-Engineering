@@ -1,0 +1,26 @@
+.myButton{
+    border: none;
+    padding: 15px 30px;
+    background-color: grey;
+    text-align: center;
+    margin: 2px 4px;
+}
+.myButton:hover{
+  background-color: aqua;
+  color: rebeccapurple;
+  border: 2px solid #555555;
+}
+.a:active{
+    color: blueviolet;
+
+}
+.a:selected{
+    color: #555555;
+}
+.a:visited{
+    color: red;
+}
+.a:first-child{
+    background-color: olivedrab;
+
+}

@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: column;
+    .circle1{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: brown;
+    display: inline;
+}
+.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle3{
+    height: 20px;
+    width:40px;
+    border-radius: 50%;
+    background-color: orange;
+    
+}
+.circle4{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle5{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle6{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle7{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle8{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle9{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle10{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle11{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}.circle2{
+    height: 30px;
+    width:40px;
+    border-radius: 50%;
+    background-color: red;
+}
+}

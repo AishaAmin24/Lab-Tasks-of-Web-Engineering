@@ -1,0 +1,17 @@
+.a:active{
+    color: blueviolet;
+
+}
+.a:selected{
+    color: #555555;
+}
+.a:visited{
+    color: red;
+}
+.a:first-child{
+    background-color: olivedrab;
+
+}
+.myLinks> a:first-child{
+    color: rosybrown;
+}

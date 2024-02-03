@@ -1,0 +1,30 @@
+.red{
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    position: relative;
+    background: red;
+}
+.green{
+    height:40px;
+    width: 40px;
+    position: absolute;
+    background: green;
+    top: 40px;
+    left: 60px;
+    padding: 20px;
+}
+.p{
+    font-family: 'Single Day', cursive;
+}
+.myIcon *{
+height: 60px;
+width: 40px;
+
+}
+.fixed_area{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    overflow: scroll;
+}
