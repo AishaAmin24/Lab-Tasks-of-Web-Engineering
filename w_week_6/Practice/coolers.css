@@ -1,0 +1,11 @@
+
+.column{
+    display: inline-flex;
+    height: 100px;
+    width: 200px;
+    margin: 5px;
+    background-color: red;
+    box-sizing: 1px solid black;
+
+box-sizing: border-box;
+}

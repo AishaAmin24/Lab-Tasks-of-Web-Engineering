@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+
+}
+.ball{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    align-items: space-between;
+
+}
