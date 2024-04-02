@@ -1,0 +1,16 @@
+img{
+    justify-items: center;
+    padding: 10px;
+    border: 20px solid black;
+    margin: 30%;
+
+}
+.container{
+    padding: 30px;
+    justify-content: center;
+    margin: 40%;
+   
+    display: inline-block;
+    border: 3px solid black;
+
+}
