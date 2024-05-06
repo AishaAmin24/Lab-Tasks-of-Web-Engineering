@@ -1,0 +1,22 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+    text-align: center;
+    font-size: 300%;
+    font-family: fantasy;
+  }
+  p {
+    color: red;
+    font-size: 100%;
+    font-family: Georgia;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 50px;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
