@@ -4,7 +4,6 @@ const Users = () => {
   return (
     <>
       <h1> users</h1>
-      
       {users.map((user) => (
         <h3> {user}</h3>
       ))}
@@ -250,26 +249,16 @@ export const UsersWithImages = () => {
       <h2>Users with images</h2>
       <div className="container">
         {users.map((user) => (
-          // way to pass the data
-          <User username={user.username} email={user.email} />
+          <div className="user">
+            <img
+              src={`https://api.dicebear.com/8.x/lorelei/svg?seed=${user.username}`}
+              alt=""
+            />
+            <span> {user.username}</span>
+            <span> {user.email}</span>
+          </div>
         ))}
       </div>
     </>
-  );
-};
-
-// Props : used to pass data from parent to child component
-const User = ({ username, email }) => {
-  return (
-    <div className="user" style={{ backgroundColor: "ButtonFace" }}>
-      <img
-        src={`https://api.dicebear.com/8.x/lorelei/svg?seed=${username}`}
-        alt=""
-      />
-      <div>
-        <span style={{ fontWeight: "bold" }}> {username}</span>
-        <span> {email}</span>
-      </div>
-    </div>
   );
 };
