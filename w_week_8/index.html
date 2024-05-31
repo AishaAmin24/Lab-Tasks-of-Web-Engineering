@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth with Storage</title>
+</head>
+<body>
+    <div id="login-form">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="welcome-message" style="display:none;">
+        <h2>Welcome, <span id="user-name"></span>!</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
